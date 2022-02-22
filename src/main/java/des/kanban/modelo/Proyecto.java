@@ -1,4 +1,4 @@
-package des.kanban.entidades.modelo;
+package des.kanban.modelo;
 
 public class Proyecto {
 

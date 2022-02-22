@@ -1,4 +1,4 @@
-package des.kanban.entidades.servicios;
+package des.kanban.servicios;
 
 public interface TareaServicio {
 
