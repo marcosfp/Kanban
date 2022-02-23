@@ -13,7 +13,7 @@ public class ProyectoController {
 	@GetMapping("/index")
 	public ModelAndView getIndex () {
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("proyecto/perfil");
+		mav.setViewName("proyecto/perfilProyecto");
 		
 		return mav;
 	}

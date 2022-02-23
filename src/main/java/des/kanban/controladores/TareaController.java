@@ -13,7 +13,7 @@ public class TareaController {
 	@GetMapping("/index")
 	public ModelAndView getIndex () {
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("index");
+		mav.setViewName("/tarea/perfilTarea");
 		
 		return mav;
 	}
