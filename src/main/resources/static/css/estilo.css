@@ -77,10 +77,10 @@ input [type=submit] {
 	width: 70%;
 	padding: 15px;
 	float: left;
-	
 }
 
 .dch {
-	width: 30%;	padding: 15px;
+	width: 30%;
+	padding: 15px;
 	float: left;
 }
