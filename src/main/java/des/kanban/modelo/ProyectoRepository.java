@@ -4,7 +4,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import des.kanban.entidades.Proyecto;
 
-public interface ProyectoRepository extends PagingAndSortingRepository<Proyecto, Long>{
+public interface ProyectoRepository {// extends PagingAndSortingRepository<Proyecto, Long>{
 
 
 }

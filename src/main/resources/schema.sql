@@ -25,7 +25,7 @@ id_proyecto    BIGINT NOT NULL,
 titulo  VARCHAR(60),
 descripcion  VARCHAR(300),
 prioridad  VARCHAR(10),
-estado VARCHAR(10),
+estado VARCHAR(15),
 CONSTRAINT tarea_proyecto FOREIGN KEY (id_proyecto) REFERENCES proyecto (id_proyecto)
 );
 

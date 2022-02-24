@@ -4,8 +4,8 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import des.kanban.entidades.Usuario;
 
-public interface UsuarioRepository extends PagingAndSortingRepository<Usuario, Long>{
+public interface UsuarioRepository{/* extends PagingAndSortingRepository<Usuario, Long>{
 
-	Usuario findByNombre_usuario(String nombre_usuario);
+	Usuario findByNombre_usuario(String nombre_usuario);*/
 	
 }

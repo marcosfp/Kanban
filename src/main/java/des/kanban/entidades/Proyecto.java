@@ -9,5 +9,7 @@ public class Proyecto {
 	String descripcion;
 	
 	List<Tarea> tareas;
+	
+	List<Usuario> trabajadores;
 
 }

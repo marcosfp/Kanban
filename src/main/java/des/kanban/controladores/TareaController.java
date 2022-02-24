@@ -18,4 +18,13 @@ public class TareaController {
 		return mav;
 	}
 	
+	
+	@GetMapping("/editar")
+	public ModelAndView getEditarTarea () {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("/tarea/editarTarea");
+		
+		return mav;
+	}
+	
 }
