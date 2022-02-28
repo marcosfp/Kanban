@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class ProyectoController {
 
 	
-	@GetMapping("/index")
+	@GetMapping("/perfil")
 	public ModelAndView getIndex () {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("proyecto/perfilProyecto");
